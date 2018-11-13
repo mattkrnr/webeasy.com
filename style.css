@@ -26,14 +26,6 @@
   color: white;
 }
 
-.logo-image{
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-top: -6px;
-}
-
 .inner{
   border-radius: 10px;
   text-align: left;
@@ -77,4 +69,23 @@ h1 {
 
 h2 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tags {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#tags td, #tags th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tags tr:nth-child(even){background-color: #A16E7A;}
+#tags tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #A16E7A;
+  color: white;
 }
