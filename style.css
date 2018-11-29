@@ -89,3 +89,11 @@ h2 {
   background-color: #A16E7A;
   color: white;
 }
+
+
+.topnav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
