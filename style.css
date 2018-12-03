@@ -97,3 +97,7 @@ h2 {
   z-index: 1;
   width: 100%;
 }
+
+.popup {
+  display: none;
+}
