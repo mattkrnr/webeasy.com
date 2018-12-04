@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>WebEasy</title> 
+ 
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src = "codejs.js"> </script>
+
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+ 
+<body>
+
+<b>webeasy.com</b>  
+
+<div class="topnav">
+  <img src="images/favicon.ico" style = "float:left;">
+  <a href="index.html">Home</a>
+  <a href="about.html">Info About CS</a>
+  <a href="stevensCS.html">CS at Stevens</a>
+  <a href="code.html">Code Explanation</a>
+  <a href="aboutcreators.html">About the Creators</a>
+</div>
+ 
+<h1 id="code">Code Explanation</h1>
+
+<p align = "center">Hover over a row to see an example of the tag from our code and click row to close</p>
+
+<div class="inner">
+<p> 
+    <table id="tags">
+        <tr>
+          <th>Tags</th>
+          <th>Definitions</th>
+        </tr>
+
+        <tr onmouseover="doctypePopup()" onclick="doctypeExit()"> 
+          <td>&lt;DOCTYPE!&gt;</td>
+          <td>Defines the document type</td>
+        </tr>
+        <tr onmouseover="aPopup()" onclick="aExit()">
+          <td>&lt;a&gt;</td>
+          <td>Defines a hyperlink</td>
+        </tr>
+        <tr onmouseover="bodyPopup()" onclick="bodyExit()">
+          <td>&lt;body&gt;</td>
+          <td>Defines the document's body</td>
+        </tr>
+        <tr onmouseover="divPopup()" onclick="divExit()">
+          <td>&lt;div&gt;</td>
+          <td>Defines a section in a document</td>
+        </tr>
+        <tr onmouseover="headerPopup()" onclick="headerExit()">
+          <td>&lt;header&gt;</td>
+          <td>Defines a header for a document or section</td>
+        </tr>
+        <tr onmouseover="imgPopup()" onclick="imgExit()">
+          <td>&lt;img&gt;</td>
+          <td>Defines an image</td>
+        </tr>
+        <tr onmouseover="mapPopup()" onclick="mapExit()">
+          <td>&lt;map&gt;</td>
+          <td>Defines a client-side image-map</td>
+        </tr>
+        <tr onmouseover="linkPopup()" onclick="linkExit()">
+          <td>&lt;link&gt;</td>
+          <td>Defines a link between a document and an external source</td>
+        </tr>
+        <tr onmouseover="tablePopup()" onclick="tableExit()">
+          <td>&lt;table&gt;</td>
+          <td>Defines a table</td>
+        </tr>
+      
+      </table>
+</p>
+</div>
+
+<div class = "popup" id = "doctypePopup">
+  <img  src = "images/doctype.png">
+  <div class="inner">
+  <p> We used the &lt;DOCTYPE!&gt; tag here to define our code as an HTML document.   </p>
+  </div>
+</div>
+<div class = "popup" id = "aPopup" >
+  <img src = "images/a.png">
+  <div class="inner">
+  <p> We used the &lt;a&gt; tag here to create links to other pages of our website.   </p>
+  </div>
+</div>
+<div class = "popup" id = "bodyPopup" >
+  <img src = "images/body.png">
+  <div class="inner">
+  <p> We used the &lt;body&gt; tag here to define where the body of the Code Explanation page will start.   </p>
+  </div>
+</div>
+<div class = "popup" id = "divPopup" >
+  <img src = "images/div.png">
+  <div class="inner">
+  <p> We used the &lt;div&gt; tag here to create a container for this table. </p>
+  </div>
+</div>
+<div class = "popup" id = "headerPopup">
+  <img src = "images/header.png">
+  <div class="inner">
+  <p> We used the h1 &lt;header&gt; tag here to write the heading of this page. </p>
+  </div>
+</div>
+<div class = "popup" id = "imgPopup" >
+  <img src = "images/img.png">
+  <div class="inner">
+  <p> We used the &lt;img&gt; tag here to show the image you're looking at.   </p>
+  </div>
+</div>
+<div class = "popup" id = "mapPopup" >
+  <img src = "images/map.png">
+  <div class="inner">
+  <p> We used the  &lt;map&gt; tag on the CS at Stevens page to make areas hyperlinks.   </p>
+  </div>
+</div>
+<div  class = "popup" id = "linkPopup" >
+  <img src = "images/link.png">
+  <div class="inner">
+  <p> We used the &lt;link&gt; tag here to link our stylesheet and the website icon.   </p>
+  </div>
+</div>
+<div class = "popup" id = "tablePopup" >
+  <img src = "images/table.png">
+  <div class="inner">
+  <p> We used the &lt;table&gt; tag here to structure the table above.   </p>
+  </div>
+</div>
+
+</body>
+</html>
