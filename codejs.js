@@ -99,7 +99,7 @@ function imgExit() {
 }
 function mapPopup() {
 	var elem = document.getElementById("mapPopup");
-	if (window.isVisible == famaplse) {
+	if (window.isVisible == false) {
 		type = "map";
 		elem.style.display = "block";
 		window.isVisible = true;
@@ -145,83 +145,87 @@ function tableExit() {
 		type = "";
 	}
 }
+
+var isVisible2 = false;
+var type2 = "";
+
 function popupPopup() {
 	var elem = document.getElementById("popupPopup");
-	if (window.isVisible == false) {
-		type = "popup";
+	if (window.isVisible2 == false) {
+		type2 = "popup";
 		elem.style.display = "block";
-		window.isVisible = true;
+		window.isVisible2 = true;
 	}
 }
 function popupExit() {
 	var elem = document.getElementById("popupPopup");
 	elem.style.display = "none";
-	if (type == "popup") {
-		window.isVisible = false;
-		type = "";
+	if (type2 == "popup") {
+		window.isVisible2 = false;
+		type2 = "";
 	}
 }
 function exitPopup() {
 	var elem = document.getElementById("exitPopup");
-	if (window.isVisible == false) {
-		type = "exit";
+	if (window.isVisible2 == false) {
+		type2 = "exit";
 		elem.style.display = "block";
-		window.isVisible = true;
+		window.isVisible2 = true;
 	}
 }
 function exitExit() {
 	var elem = document.getElementById("exitPopup");
 	elem.style.display = "none";
-	if (type == "exit") {
-		window.isVisible = false;
-		type = "";
+	if (type2 == "exit") {
+		window.isVisible2 = false;
+		type2 = "";
 	}
 }
 function showSlidesPopup() {
 	var elem = document.getElementById("showSlidesPopup");
-	if (window.isVisible == false) {
-		type = "showSlides";
+	if (window.isVisible2 == false) {
+		type2 = "showSlides";
 		elem.style.display = "block";
-		window.isVisible = true;
+		window.isVisible2 = true;
 	}
 }
 function showSlidesExit() {
 	var elem = document.getElementById("showSlidesPopup");
 	elem.style.display = "none";
-	if (type == "showSlides") {
-		window.isVisible = false;
-		type = "";
+	if (type2 == "showSlides") {
+		window.isVisible2 = false;
+		type2 = "";
 	}
 }
 function buttonClickedPopup() {
 	var elem = document.getElementById("buttonClickedPopup");
-	if (window.isVisible == false) {
-		type = "buttonClicked";
+	if (window.isVisible2 == false) {
+		type2 = "buttonClicked";
 		elem.style.display = "block";
-		window.isVisible = true;
+		window.isVisible2 = true;
 	}
 }
 function buttonClickedExit() {
 	var elem = document.getElementById("buttonClickedPopup");
 	elem.style.display = "none";
-	if (type == "buttonClicked") {
-		window.isVisible = false;
-		type = "";
+	if (type2 == "buttonClicked") {
+		window.isVisible2 = false;
+		type2 = "";
 	}
 }
 function closedPopup() {
 	var elem = document.getElementById("closedPopup");
-	if (window.isVisible == false) {
-		type = "closed";
+	if (window.isVisible2 == false) {
+		type2 = "closed";
 		elem.style.display = "block";
-		window.isVisible = true;
+		window.isVisible2 = true;
 	}
 }
 function closedExit() {
 	var elem = document.getElementById("closedPopup");
 	elem.style.display = "none";
-	if (type == "closed") {
-		window.isVisible = false;
-		type = "";
+	if (type2 == "closed") {
+		window.isVisible2 = false;
+		type2 = "";
 	}
 }
