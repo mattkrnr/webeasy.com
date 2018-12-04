@@ -38,7 +38,7 @@
 <p> 
     <table id="tags">
         <tr>
-          <th>Tags</th>
+          <th>HTML Tags</th>
           <th>Definitions</th>
         </tr>
 
@@ -136,6 +136,55 @@
   <div class="inner">
   <p> We used the &lt;table&gt; tag here to structure the table above.   </p>
   </div>
+</div>
+
+<div class="inner">
+<p> 
+    <table id="tags">
+        <tr>
+          <th>Javascript Functions</th>
+          <th>Description</th>
+        </tr>
+
+        <tr onmouseover="popupPopup()" onclick="popupExit()"> 
+          <td>doctypePopup()</td>
+          <td>This function displays an image and description if no others are currently being shown.</td>
+        </tr>
+        <tr onmouseover="exitPopup()" onclick="exitExit()">
+          <td>doctypeExit()</td>
+          <td>This function changes the display style to none so the pictures all appear in the same spot. </td>
+        </tr>
+        <tr onmouseover="showSlidesPopup()" onclick="showSlidesExit()">
+          <td>showSlides()</td>
+          <td>This function allows for the operation of the automatically changing pictures on the home screen.</td>
+        </tr>
+        <tr onmouseover="buttonClickedPopup()" onclick="buttonClickedExit()">
+          <td>hamzahbuttonClicked()</td>
+          <td>This function opens a popup with information about Hamzah.</td>
+        </tr>
+        <tr onmouseover="closedPopup()" onclick="closedExit()">
+          <td>closedHamzah()</td>
+          <td>This function closes the popup of Hamzah that is currently open.</td>
+        </tr>
+      
+      </table>
+</p>
+</div>
+
+<div class = "popup" id = "popupPopup">
+  <img  src = "images/doctypePopup.png">
+</div>
+<div class = "popup" id = "exitPopup" >
+  <img src = "images/doctypeExit.png">
+</div>
+<div class = "popup" id = "showSlidesPopup" >
+  <img src = "images/showSlides.png">
+</div>
+<div class = "popup" id = "buttonClickedPopup" >
+  <img src = "images/buttonClicked.png">
+</div>
+<div class = "popup" id = "closedPopup">
+  <img src = "images/closed.png">
 </div>
 
 </body>

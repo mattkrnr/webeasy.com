@@ -145,3 +145,83 @@ function tableExit() {
 		type = "";
 	}
 }
+function popupPopup() {
+	var elem = document.getElementById("popupPopup");
+	if (window.isVisible == false) {
+		type = "popup";
+		elem.style.display = "block";
+		window.isVisible = true;
+	}
+}
+function popupExit() {
+	var elem = document.getElementById("popupPopup");
+	elem.style.display = "none";
+	if (type == "popup") {
+		window.isVisible = false;
+		type = "";
+	}
+}
+function exitPopup() {
+	var elem = document.getElementById("exitPopup");
+	if (window.isVisible == false) {
+		type = "exit";
+		elem.style.display = "block";
+		window.isVisible = true;
+	}
+}
+function exitExit() {
+	var elem = document.getElementById("exitPopup");
+	elem.style.display = "none";
+	if (type == "exit") {
+		window.isVisible = false;
+		type = "";
+	}
+}
+function showSlidesPopup() {
+	var elem = document.getElementById("showSlidesPopup");
+	if (window.isVisible == false) {
+		type = "showSlides";
+		elem.style.display = "block";
+		window.isVisible = true;
+	}
+}
+function showSlidesExit() {
+	var elem = document.getElementById("showSlidesPopup");
+	elem.style.display = "none";
+	if (type == "showSlides") {
+		window.isVisible = false;
+		type = "";
+	}
+}
+function buttonClickedPopup() {
+	var elem = document.getElementById("buttonClickedPopup");
+	if (window.isVisible == false) {
+		type = "buttonClicked";
+		elem.style.display = "block";
+		window.isVisible = true;
+	}
+}
+function buttonClickedExit() {
+	var elem = document.getElementById("buttonClickedPopup");
+	elem.style.display = "none";
+	if (type == "buttonClicked") {
+		window.isVisible = false;
+		type = "";
+	}
+}
+function closedPopup() {
+	var elem = document.getElementById("closedPopup");
+	if (window.isVisible == false) {
+		type = "closed";
+		elem.style.display = "block";
+		window.isVisible = true;
+	}
+}
+function closedExit() {
+	var elem = document.getElementById("closedPopup");
+	elem.style.display = "none";
+	if (type == "closed") {
+		window.isVisible = false;
+		type = "";
+	}
+}
